@@ -1,0 +1,142 @@
+body {
+  font: Courier New;
+  font-size: 10pt;
+  line-height: 14pt;
+  margin-bottom: 50px;
+}
+pre {
+  font-family: 'Courier New', monospace;
+  overflow: auto; 
+  width: 1000px;
+  white-space: pre; 
+}
+a:link, a:visited { 
+    color: #000;
+    text-decoration: none;
+    cursor: auto;
+}
+a:link:hover, a:visited:hover { 
+    color: #000;
+    text-decoration: underline;
+    cursor: auto;
+}
+video {
+  max-width: 100%;
+  height: auto;
+}
+#line {
+  position: fixed;
+  left: 100px;
+  top: 100px;
+  z-index: 10;
+}
+#quanyin {
+  display: block;
+  position: absolute;
+  top:100px;
+  z-index: 4;
+  left: 50%;
+  transform: translateX(-50%);
+}
+#witowmaker {
+  display: block;
+  position: absolute;
+  top:950px;
+  z-index: 4;
+  left: 50%;
+  transform: translateX(-50%);
+}
+#vidsign {
+  display: block;
+  position: absolute;
+  overflow: hidden;
+  height:710;
+  top:2000px;
+  right: 12%;
+  z-index: 0;
+}
+#vidgate {
+  display: block;
+  position: absolute;
+  top:1900px;
+  left: 12%;
+  z-index: 2;
+}
+#drip {
+  display: block;
+  position: absolute;
+  top:2300px;
+  left: 30%;
+  z-index: 1;
+}
+#absolutelyyours {
+  display: block;
+  position: absolute;
+  top:3050px;
+  left:10%;
+  z-index: 4;
+}
+#carnival {
+  display: block;
+  position: absolute;
+  top:3400px;
+  right: 50px;
+  z-index: 7;
+}
+#carnivalunder {
+  display: block;
+  position: absolute;
+  top:3500px;
+  right: 475px;
+  z-index: 2;
+}
+#onecar {
+  display: block;
+  position: absolute;
+  top:4250px;
+  right:20%;
+  z-index: 4;
+}
+#copwiper {
+  display: block;
+  position: absolute;
+  top:4750px;
+  left: 10%;
+  z-index: 1;
+}
+
+#plasticbagtree {
+  display: block;
+  position: absolute;
+  top:5100px;
+  right: 12%;
+  z-index: 0;
+}
+#smiley {
+  display: block;
+  position: absolute;
+  top:6000px;
+  left: 12%;
+  z-index: 2;
+}
+#plane {
+  display: block;
+  position: absolute;
+  top: 6500px;
+  right: 20%;
+  z-index:0;
+}
+#gummy {
+  display: block;
+  position: absolute;
+  top: 7200px;
+  right: 50%;
+  z-index:0;
+}
+#mask {
+  display: block;
+  position: absolute;
+  top:5100px;
+  right: 12%;
+  z-index: 10; 
+}

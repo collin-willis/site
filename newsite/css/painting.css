@@ -1,0 +1,61 @@
+body {
+  font: Courier New;
+  font-size: 10pt;
+  line-height: 14pt;
+  margin-bottom: 50px;
+      margin-top: 50px;
+}
+pre {
+  font-family: 'Courier New', monospace;
+  overflow: auto; 
+  width: 100%;
+  white-space: pre; 
+}
+
+
+
+a:link, a:visited { 
+    color: #000;
+    text-decoration: none;
+    cursor: auto;
+}
+a:link:hover, a:visited:hover { 
+    color: #000;
+    text-decoration: underline;
+    cursor: auto;
+}
+
+.etah {
+    display: block;
+    width: 90vw;
+    margin: auto;
+}
+.etah pre {
+    padding-left: 4.7vw;
+}
+.teamo {
+    display: block;
+    width: 90vw;
+    margin: auto;
+}
+.teamo pre {
+    padding-left: 6.2vw;
+}
+.nana {
+    display: block;
+    width: 90vw;
+    margin: auto;
+}
+.nana pre {
+    padding-left: 36vw;
+}
+source {
+   max-width:100%;
+   height:auto;
+   max-height:100%;
+}
+img {
+   max-width:100%;
+   height:auto;
+   max-height:100%;
+}

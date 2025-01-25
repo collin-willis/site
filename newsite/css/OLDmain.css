@@ -1,0 +1,167 @@
+a{
+    text-decoration: none;
+    display: inline-block;
+    color: #03c;
+    -webkit-transition: 0.5s;
+    -moz-transition: 0.5s;
+    -o-transition: 0.5s;
+    -ms-transition: 0.5s;
+    transition: 0.5s;
+}
+ 
+a:hover {
+    -webkit-transform: scale(.6,.6);
+    -moz-transform: scale(.6,.6);
+    -o-transform: scale(.6,.6);
+    -ms-transform: scale(.6,.6);
+    transform: scale(.6,.6);
+}
+.ascii {
+    cursor: pointer;
+    font-family: "Courier new", Courier, "Andale Mono", monospace;
+    font-size: 1vw;
+    text-align: left;
+    line-height:1;
+    letter-spacing: 0.05em;
+}
+
+.ascii:hover{
+   
+}
+#asciibox {
+    position: absolute;
+    left: 10vw;
+    top:125px;
+}
+
+.asciinose {
+    cursor: pointer;
+    font-family: "Courier new bold", Courier, "Andale Mono", monospace;
+    font-size: .8vw;
+    color: rgba(0, 0, 0, 0);
+    text-align: left;
+    line-height:1;
+    letter-spacing: 0.1em
+    -o-text-overflow: clip;
+    text-overflow: clip;
+    text-shadow: 0px 0 0 #fcc9be , 0px 0 0 rgb(226,91,14) , 0px 0 0 rgb(245,221,8) , 0px 0 0 rgb(5,148,68) , 0px 0 0 rgb(2,135,206) , 0px 0 0 rgb(4,77,145) , 0px 0 0 rgb(42,21,113) ;
+    -webkit-transition: all 600ms cubic-bezier(0.68, -0.55, 0.265, 1.55);
+    -moz-transition: all 600ms cubic-bezier(0.68, -0.55, 0.265, 1.55);
+    -o-transition: all 600ms cubic-bezier(0.68, -0.55, 0.265, 1.55);
+    transition: all 600ms cubic-bezier(0.68, -0.55, 0.265, 1.55);
+}
+
+
+pre {
+    font-family: 'Courier New', monospace;
+    font-weight: 700;
+}
+
+.etah {
+    position: absolute;
+    left: 10vw;
+    top: 30vw;
+    width: 15vw;
+    margin: auto;
+}
+
+#juggalo {
+  position: absolute;
+  bottom: 10%;
+  right: 20%;
+  z-index: -1;
+}
+
+#juggalooverlay {
+  position: absolute;
+  width:500;
+  height: 234;
+  bottom: 10%;
+  right: 10%;
+  z-index: 10;
+}
+
+#line {
+  position: absolute;
+  bottom: 5%;
+  right: 15%;
+}
+
+#nose {
+    position: absolute;
+    top:28vw;
+    right:2vw;
+    z-index: 1;
+    width: 23vw;
+}
+#lefteye {
+  position: absolute;
+  top:27vw;
+  right:21vw;
+  z-index: 2;
+}
+#righteye {
+  position: absolute;
+  top:25vw;
+  right:6.5vw;
+  z-index: 2;
+}
+#mouthbox {
+  position: absolute;
+  top:48vw;
+  right:6vw;
+  z-index: 2;
+}
+#flagpole { 
+  position:absolute; 
+  left:320px; 
+  bottom:300px; 
+  z-index: 5; 
+}
+#moundbox {
+  position: absolute;
+  bottom:160px;
+  left: 250px;
+  z-index: -1;
+}
+#flag { 
+  position:absolute; 
+  left:400px; 
+  bottom:400px; 
+  z-index: 5; 
+}
+
+
+@media screen and (min-width: 1200px) {
+    .ascii {
+        font-size: 12px;
+        }
+    .asciinose {
+        font-size: 9.6px;
+        }
+    #nose {
+        position: absolute;
+        top:456px;
+        }
+    #lefteye {
+        position: absolute;
+        top:444px;
+        }
+    #righteye {
+        position: absolute;
+        top:421px;
+        }
+    #mouthbox {
+        position: absolute;
+        top:696px;
+        right: 15vw;
+        }
+}
+@media screen and (max-width: 768px) {
+    .ascii {
+         font-size: 7.6px;
+      }
+    .asciinose {
+        font-size: 6.1px;
+    }
+}

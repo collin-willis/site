@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>COLLIN WILLIS</title>
+<link href="css/main.css" rel="stylesheet"/>
+<link href="css/tooltipster.css" rel="stylesheet"/>
+<link rel="shortcut icon" href="http://collinwillis.com/new/images/favicon.png">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script type="text/javascript" src="js/jquery.tooltipster.js"></script>
+<script>
+        $(document).ready(function() {
+            $('.tooltip').tooltipster({
+              animation: 'fade',
+              delay: 200,
+              theme: 'tooltipster',
+              touchDevices: false,
+              trigger: 'hover',
+              positiontracker: true,
+            });
+             $('.log').tooltipster({
+              animation: 'fade',
+              delay: 200,
+              theme: 'tooltipster',
+              touchDevices: false,
+              trigger: 'hover',
+              positiontracker: true,
+              offsetX: -50,
+              offsetY: -50,
+            });
+        });
+    </script>
+</head>
+<body>
+        <div id="info"><div class="infotext">I am an artist and designer working in NYC. Here is some of my recent work. If you would like to contact me, you can <a href="mailto:collinwillis@gmail.com">email me</a> or <a href="sms:2022516761">send me a text</a>.</div>
+    </div>
+<div id="asciibox">
+  <pre class="ascii"><span class="inner-pre">
+                              +
+           -                          
+                                    _ .
+ +     .|                 *        (_)           +
+      / |     /\     .^.                        
+     /  |    /  \   .\ \     .^.   .\^\    ..     .^.
+    /  _|   /    \   / /    .\ \    / /   /  \   / /
+   (  (_   /      \ .\ \     / /   .\ \  / /: \ .\ \         .
+   .\   | (        ) / / ,. .\ \    / / .\ \.\ \ / /
+    .\  | .\  . . / .\ :' ]  / /  ..\ \  / / .\ \\ \
+     .\ |  .\  v /   /  ,'  .\ :' ] .\/ .\ \  .\ v /
+      .':   .\  /   .\.'     /  ,'       / /   .\./
+       .     .\/          + .\.'       -^./             x
+         .^.     .^.              /.            .^.
+ -      .\ \     / /  .^.  .\    .\ \          / , \
+         / /  .  \ \ .\ \ .\ \    / /     ^^  / /.\_\
+        .\ \.' './ /  / /  / /   .\ \   .\^\ / /___
+         / ' ,'. ' \ .\ \ .\ \    / / ,. / /.\.....'\ 
+        .\ .'   '. /  / /  / / ,..\ :' ].\ \  .____) )
+         .V       V  .\ \ .\ :' ] /  ,'  / / (....../ 
+                      .VV  /  ,' .\.'   .\ \  ^^^^^
+     .                    .\.'            UU           .      
+                                                       
+                                .
+             -
+                                          +
+  </span></pre>
+
+
+    <div id="categorybox">
+        <div class="categories">
+            <a id="painting">Painting</a><br>
+            <a id="video">Video</a><br>
+            <div id="about"><a href="#">About</a></div></div>
+        </div>    
+    </div>
+
+    <div id="face">
+        <div id="lefteye"> 
+            <canvas id="left_eye" width="30" height="30"></canvas>
+                <script>
+                  var canvas = document.getElementById('left_eye');
+                  var context = canvas.getContext('2d');
+                  var centerX = 15;
+                  var centerY = 15;
+                  var radius = 10;
+
+                  context.beginPath();
+                  context.arc(centerX, centerY, radius, 0, 2 * Math.PI, false);
+                  context.fillStyle = '#4F80F7';
+                  context.fill();
+                </script>
+        </div>
+        <div id="righteye"> 
+        <canvas id="right_eye" width="30" height="30"></canvas>
+            <script>
+              var canvas = document.getElementById('right_eye');
+              var context = canvas.getContext('2d');
+              var centerX = 15;
+              var centerY = 15;
+              var radius = 10;
+
+              context.beginPath();
+              context.arc(centerX, centerY, radius, 0, 2 * Math.PI, false);
+              context.fillStyle = '#4F80F7';
+              context.fill();
+            </script>
+        </div>
+     <div class="nose">
+        <marquee behavior=alternate>
+            <a href="http://log.collinwillis.com" target="_blank" style="text-decoration: none;">
+                <pre class="asciinose">
+               ..,,..                 
+             -:-.`.-://-              
+           .//-..`.--:/+:             
+          `/+:-..`..-:/++-            
+          -/+/-..`..-://+/            
+          -++/:-.`..-://+/            
+          -++/:..`..-://+/            
+          :++/:-.`..-://+/            
+          :++::-.`..-://+/            
+          :++::-.`..-:/+++`           
+          +++::-.`..-:/+++.           
+         `o+/::-.`.--:/++o:           
+         /o//::-.`..-://+oo`          
+        -++//:--.`..--://+o/          
+    `..:+///:--....`..-://++/-.`      
+ `-++++////:---..`.`...-:///++ooo/.   
+.++++/////::-....```..--:://///++os:  
+++////////:--..``````..-::///////+os- 
+o+++//////::-..``````..-://////+++os- 
+.+oosoo++//::-..````..-:////+osooo+:  
+  .://+/+++++//:---::///+/+oooo+/-`   
+          `/soo+++++ooss+-`           
+            ./+ossssso/.
+                </pre>
+            </a>
+         </marquee>
+        </div> 
+
+    <div id="mouthbox">
+        <canvas id="mouth" width="118" height="60"></canvas>
+            <script>
+              var canvas = document.getElementById('mouth');
+              var context = canvas.getContext('2d');
+              var x = 59;
+              var y = 0;
+              var radius = 45;
+              var startAngle = 0.1 * Math.PI;
+              var endAngle = 0.9 * Math.PI;
+              var counterClockwise = false;
+
+              context.beginPath();
+              context.arc(x, y, radius, startAngle, endAngle, counterClockwise);
+              context.lineWidth = 15;
+              context.lineCap = 'round';
+
+              // line color
+              context.strokeStyle = '#fa5a35';
+              context.stroke();
+            </script>
+        </div>
+    </div>
+    <div id="content">
+        <div class="etah">
+            <picture onclick="location.href='images/painting/etah.jpg';">
+                <source media="(min-width: 1200px)"   
+                        srcset="images/painting/etahThumb.jpg">
+                <source media="(max-width: 1199px)"   
+                        srcset="images/painting/etahThumb-1200.jpg">
+                <img src="images/painting/etahThumb-1200.jpg">
+            </picture>
+            <pre>Etah - 59.5" x 30", 
+    Enamel, Oil Paint, Graphite, Transfer Paper, House Paint</pre>
+        </div>
+        <div class="teamo">
+            <picture onclick="location.href='images/painting/teamo.jpg';">
+                <source media="(min-width: 1200px)"   
+                        srcset="images/painting/teamoThumb.jpg">
+                <source media="(max-width: 1199px)"   
+                        srcset="images/painting/teamoThumb-1200.jpg">
+                <img src="images/painting/teamoThumb-1200.jpg">
+            </picture>
+            <pre>Teamo - 51.75" x 26", 
+    Enamel, Gouache, Graphite, Sticker</pre>
+        </div>
+        <div class="nana">
+            <picture onclick="location.href='images/painting/nana.jpg';">
+                <source media="(min-width: 1200px)"   
+                        srcset="images/painting/nanaThumb.jpg">
+                <source media="(max-width: 1199px)"   
+                        srcset="images/painting/nanaThumb-1200.jpg">
+                <img src="images/painting/nanaThumb-1200.jpg">
+            </picture>
+            <pre>Nana - 22" x 22", 
+    Etched Mirror</pre>
+        </div>
+        <div id="quanyin">
+            <video id="myvideo" poster="images/QuanYinCover.jpg">
+                <source src="http://collinwillis.com/quanyin/video/quanyin.webm" type="video/webm; codecs=vp8,vorbis" preload="auto">
+                <source src="http://collinwillis.com/quanyin/video/quanyin.mp4"  type="video/mp4; codecs=avc1.42E01E,mp4a.40.2">
+            </video>
+            <pre>Heat Sureens - Meet Quan Yin (21 min | <a href="https://www.youtube.com/watch?v=wltw0MlXg7o" target="blank">YT</a>)</pre>
+        </div>
+        <div id="witowmaker">
+            <video id="myvideo2">
+                <source src="http://collinwillis.com/witowmaker/video/whereare.webm" type="video/webm; codecs=vp8,vorbis">
+                <source src="http://collinwillis.com/witowmaker/video/whereare.mp4"  type="video/mp4; codecs=avc1.42E01E,mp4a.40.2">
+            </video>
+            <pre>WiTOWMAKER - Where Are (35 min | <a href="https://youtu.be/WvZtu38wL-c" target="blank">YT</a>)</pre>
+        </div>
+    </div>
+</body>
+<script type="text/javascript">
+    $('#myvideo, #myvideo2').hover(function toggleControls() {
+        if (this.hasAttribute("controls")) {
+            this.removeAttribute("controls")
+        } else {
+            this.setAttribute("controls", "controls")
+        }
+    });
+    $(document).ready(function(){
+        $("#painting").click(function(){
+            $("#content").load("painting.html");
+        });
+    });
+    $(document).ready(function(){
+        $("#video").click(function(){
+            $("#content").load("video.html");
+        });
+    });
+    $(document).ready(function() {
+        $("#about").click(function(e) {
+            $("#info").toggle();
+            e.preventDefault();
+        });
+    });
+
+</script>
+</html>
